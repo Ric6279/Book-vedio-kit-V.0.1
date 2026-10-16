@@ -1,0 +1,9 @@
+# 统一用 LF 存进仓库，检出也用 LF：这份代码要在 Windows 与 macOS 之间来回搬。
+# （本机 git 的系统配置里 core.autocrlf=true，这里显式覆盖，免得到 mac 上整片文件显示为已修改）
+* text=auto eol=lf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.pptx binary
+*.docx binary

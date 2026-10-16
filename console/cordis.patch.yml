@@ -1,0 +1,7 @@
+# course-kit 控制台的 bundle patch。
+# 与 dsh-course-kit 分成两个包，是为了能单独重挂控制台：
+# 宿主半的模块一旦被 Loader 加载就留在 ESM 缓存里，改它必须重启应用；
+# 控制台迭代频繁，独立成包后改完只需重挂这一个条目。
+- insert:
+    - id: course-kit-console
+      name: 'dsh-course-kit-console'

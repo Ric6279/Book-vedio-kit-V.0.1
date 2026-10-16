@@ -1,0 +1,37 @@
+{
+  "name": "dsh-course-kit",
+  "description": "书籍、视频摘要：把一本书和一个视频做成教学材料——书摘（原文 + 总结）、视频文稿与摘要（带时间码）、讲义式 PPT。原文由脚本逐字搬运并标页码，判断交给模型并写进 presets/*.json。",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/host.js",
+  "exports": {
+    ".": "./lib/host.js",
+    "./console": "./lib/console-entry.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.0-rc.2"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.2.0-rc.2"
+  },
+  "files": [
+    "lib",
+    "engine",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "SKILL.md"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+# course-kit 的 bundle patch。
+# 宿主半（lib/host.js）注册 coursekit_* 工具与 course-kit 技能。
+# 浏览器控制台是另一个包：dsh-course-kit-console。
+- insert:
+    - id: course-kit
+      name: 'dsh-course-kit'

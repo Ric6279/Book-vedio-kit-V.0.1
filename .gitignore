@@ -1,0 +1,18 @@
+# 第三方依赖：按 工作总结.md 第四节用 pip 装（含平台相关的 wheel，各机各装）
+.pylibs/
+
+# 跑出来的东西：上传的素材、产物、OCR 逐页缓存（体积大，且含版权内容）
+demo/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统自带
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时
+*.tmp
+~$*
