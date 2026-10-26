@@ -1,6 +1,6 @@
-# 书籍、视频摘要（course-kit）
+# 大肥鱼插件—书籍、视频摘要（DSH-course-kit）
 
-把**一本书**和**一个视频**做成教学材料：书摘（Markdown / Word）、视频文稿与摘要（含 SRT）、讲义式 PPT。
+快速识别书籍与视频内容，支持OCR和音频识别，把**一本书**和**一个视频**做成教学材料：书摘（Markdown / Word）、视频文稿与摘要（含 SRT）、讲义式 PPT。
 界面名「书籍、视频摘要」；包名 `dsh-course-kit`（宿主半 + 引擎 + 客户端半）与 `dsh-course-kit-console`（浏览器工作台）。
 
 ## 一条铁律
